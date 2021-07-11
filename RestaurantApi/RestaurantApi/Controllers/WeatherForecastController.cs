@@ -25,5 +25,17 @@ namespace RestaurantApi.Controllers
         {
             return weatherForecast.Get();
         }
+        [HttpGet("curentDay/{max}")]
+        public Dictionary<int, int> Get([FromQuery] int take, [FromRoute] int max)
+        {
+            Dictionary<int, int> maxTake = new Dictionary<int, int>() { { max, take } };
+            return maxTake;
+        }
+        [HttpPost]
+        public ActionResult<string> Hello([FromBody] string name)
+        {
+            HttpContext.Response.StatusCode = 404;
+            return $"Hello {name}";
+        }
     }
 }
