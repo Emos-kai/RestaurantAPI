@@ -60,3 +60,5 @@ C:\Users\Kamil\Desktop\Kurs Udemy\RestaurantApi\RestaurantApi\obj\Debug\net5.0\R
 C:\Users\Kamil\Desktop\Kurs Udemy\RestaurantApi\RestaurantApi\obj\Debug\net5.0\ref\RestaurantApi.dll
 C:\Users\Kamil\Desktop\Kurs Udemy\RestaurantApi\RestaurantApi\obj\Debug\net5.0\RestaurantApi.pdb
 C:\Users\Kamil\Desktop\Kurs Udemy\RestaurantApi\RestaurantApi\obj\Debug\net5.0\RestaurantApi.genruntimeconfig.cache
+C:\Users\Kamil\Desktop\Kurs Udemy\RestaurantApi\RestaurantApi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Kamil\Desktop\Kurs Udemy\RestaurantApi\RestaurantApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
