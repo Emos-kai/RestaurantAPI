@@ -12,4 +12,9 @@ namespace RestaurantApi
 
         public string Summary { get; set; }
     }
+    public class TemperatureRequest
+    {
+        public int TempMin { get; set; }
+        public int TempMax { get; set; }
+    }
 }

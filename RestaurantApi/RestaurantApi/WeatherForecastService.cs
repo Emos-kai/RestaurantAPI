@@ -22,5 +22,16 @@ namespace RestaurantApi
             })
             .ToArray();
         }
+        public IEnumerable<WeatherForecast> MyGet(int count, int TempMin, int TempMax)
+        {
+            var rng = new Random();
+            return Enumerable.Range(1, count).Select(index => new WeatherForecast
+            {
+                Date = DateTime.Now.AddDays(index),
+                TemperatureC = rng.Next(TempMin, TempMax),
+                Summary = Summaries[rng.Next(Summaries.Length)]
+            })
+            .ToArray();
+        }
     }
 }
